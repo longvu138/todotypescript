@@ -1,0 +1,26 @@
+.input-todo {
+  margin-left: -20px;
+  font-size: 25px;
+  width: 550px;
+  height: 65px;
+  padding: 16px 16px 16px 65px;
+  border: none;
+  font-style: italic;
+  /* box-shadow: 0px 1px 0px 0px rgb(0 0 0 / 19%); */
+}
+.input-todo:focus {
+  outline: none;
+}
+.input-todo::placeholder {
+  color: #e7e7e7;
+}
+
+.toggle-all img {
+  filter: grayscale(100%);
+}
+.toggle-all .icon {
+  left: 21px;
+  color: #e7e7e7;
+  position: relative;
+  font-size: 25px;
+}
